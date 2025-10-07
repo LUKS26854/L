@@ -1,6 +1,8 @@
 def exibir_menu():
+
     """Mostra o menu de opções disponíveis"""
     print("\n" + "="*50)
+    
     print("🎓 ASSISTENTE VIRTUAL - CURSO DE PROGRAMAÇÃO")
     print("="*50)
     print("Digite sua dúvida ou escolha uma opção:")
@@ -10,6 +12,7 @@ def exibir_menu():
 
 
 def listar_topicos():
+
     """Lista todos os tópicos que o bot conhece"""
     print("\n📚 Tópicos disponíveis:")
     print("  ✔ Variáveis e tipos de dados")
@@ -19,8 +22,8 @@ def listar_topicos():
     print("  ✔ Funções")
     print("  ✔ Importar bibliotecas\n")
 
-
 def buscar_resposta(pergunta):
+
     """Procura a resposta adequada baseada na pergunta"""
    
     # Dicionário com respostas organizadas
